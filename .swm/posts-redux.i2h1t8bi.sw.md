@@ -28,7 +28,7 @@ export const store = legacy_createStore(appReducers, applyMiddleware(thunk));
 
 </SwmSnippet>
 
-- <SwmToken path="/src/components/redux/store/redux.store.js" pos="12:8:17" line-data="export const store = legacy_createStore(appReducers, applyMiddleware(thunk));">`legacy_createStore(appReducers, applyMiddleware(thunk))`</SwmToken>:
+- \`legacy_createStore(appReducers, <SwmToken path="/src/components/redux/store/redux.store.js" pos="12:13:17" line-data="export const store = legacy_createStore(appReducers, applyMiddleware(thunk));">`applyMiddleware(thunk))`</SwmToken>:
   - <SwmToken path="/src/components/redux/store/redux.store.js" pos="12:10:10" line-data="export const store = legacy_createStore(appReducers, applyMiddleware(thunk));">`appReducers`</SwmToken>: Combines all the reducers for the application.
   - <SwmToken path="/src/components/redux/store/redux.store.js" pos="12:13:16" line-data="export const store = legacy_createStore(appReducers, applyMiddleware(thunk));">`applyMiddleware(thunk)`</SwmToken>: Adds middleware to handle asynchronous actions.
 
