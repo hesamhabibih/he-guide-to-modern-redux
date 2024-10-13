@@ -1,7 +1,7 @@
 export const POSTS_ACTIONS = {
     SET_IS_LOADING_FETCH_POSTS: "SET_IS_LOADING_FETCH_POSTS",
     FETCH_POSTS: "FETCH_POSTS",
-    SET_POSTS: "SET_POSTS",
+    SET_POSTS: "SET_POSTS", 
   };
   
   export const setIsLoadingFetchPosts = isLoading => {
